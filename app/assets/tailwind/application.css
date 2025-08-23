@@ -1,2 +1,8 @@
 @import "@fortawesome/fontawesome-free/css/all.css";
 @import "tailwindcss";
+
+ :root  {
+    --cor-logo: #0b1d51;
+    --cor-logo-hover: #08153b;
+    --cor-logo-light: #9cafe6;
+ }
