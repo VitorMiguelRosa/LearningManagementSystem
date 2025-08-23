@@ -69,7 +69,7 @@ end
 
 gem "tailwindcss-ruby", "~> 4.1"
 
-gem "font-awesome-sass", "~> 5.0"
+gem "font-awesome-sass", "~> 6.7"
 
 gem "devise", "~> 4.9"
 
