@@ -1,4 +1,4 @@
-<div id="<%= dom_id course %>" class="max-w-sm rounded-b overflow-hidden shadow-lg hover:bg-(--cor-logo-light)">
+<div id="<%= dom_id course %>" class="text-white max-w-sm bg-purple-700 rounded-b overflow-hidden shadow-lg hover:bg-purple-800">
   <%= link_to course, class: "flex flex-col h-full" do %>
     <% if course.image.present? %>
       <%= image_tag course.image.variant(:thumb), class: "w-full rounded-t" %>
