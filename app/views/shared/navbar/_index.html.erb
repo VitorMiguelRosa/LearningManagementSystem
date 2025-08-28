@@ -3,7 +3,7 @@
     <a href="/"><%= icon("fa-solid", "house") %></a>
   </div>
   <div class="w-1/3 flex justify-center items-center">
-    <h1>Cursos Taligado</h1>
+    <div><%= link_to "Logout", destroy_user_session_path, data: { "turbo-method": :delete } %></div>
   </div>
   <div class="w-1/3 flex justify-end items-center">
     <a href="#"><%= icon("fa-solid", "bars") %></a>
